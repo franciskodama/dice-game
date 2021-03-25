@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dice Game by Francis Kodama</title>
+    <meta name="description" content="Dice Game by Francis Kodama">
+    <meta name="keywords" content="Web Development, Frontend, Strategy, Business, Planning">
+    <meta name="author" content="Dice Game Francis Kodama">
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1 id="message">Player 1 Turn</h1>
+        <div class="players">
+            <div id="player1">
+                <h1>Score: 
+                    <span id="player1Scoreboard">0</span>
+                </h1>
+                <div id="player1Dice" class="dice active">-</div>
+            </div>
+            <div id="player2">
+                <h1>Score: 
+                    <span id="player2Scoreboard">0</span>
+                </h1>
+                <div id="player2Dice" class="dice">-</div>
+            </div>
+        </div>
+        <button id="rollBtn">Roll Dice 🎲</button>
+        <button id="resetBtn">Reset Game 🔁</button>
+    </div>
+    <script src="./js/script.js"></script>
+</body>
+</html>
+
